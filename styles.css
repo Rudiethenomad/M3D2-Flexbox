@@ -1,13 +1,16 @@
 body{
     margin: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
-
+*{
+    box-sizing: border-box;
+}
 nav{
     display: flex;
-    background-color: gray;
+    background-color:  hsl(32, 43%, 76%);
     border-radius: 100px;
     align-items: center;
     justify-content: center;
@@ -15,7 +18,7 @@ nav{
     flex-wrap: wrap;
     padding: 20px;
     box-sizing: border-box;
-    width: 50vw;
+    width: 45vw;
     height: 150px;
     gap: 20px;
 
@@ -33,14 +36,14 @@ nav{
 }
 .second-btn{
     display: flex;
-    background-color: bisque;
+    background-color: hsl(33, 100%, 88%);
     height: 50px;
     width: 100px;
     border-radius: 100px;
     justify-content: center;
     align-items: center;
 }
-img{
+.first-img{
     width: 50px;
     height: 50px;
 }
@@ -48,11 +51,11 @@ img{
     display: flex;
     background-color: bisque;
     height: 50px;
-    width: 100px;
+    width: 120px;
     border-radius: 100px;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 
 }
 .fourth-btn{
@@ -73,7 +76,30 @@ img{
     justify-content: center;
     align-items: center;
 }
-}
-*{
+
+#article{
+   
+    display: flex;
+    background-color:  hsl(32, 43%, 76%);
+
+    align-items: center;
+    justify-content: left;
+    margin-top: 50px;
+    
+    padding: 20px;
     box-sizing: border-box;
+    width: 75vw;
+    height: 350px;
+    gap: 20px;
+}
+.second-img{
+    height: 300px;
+}
+.f-ph{
+    display: flex;
+    flex-direction: column;
+   
+}
+span{
+    font-weight: bold;
 }
