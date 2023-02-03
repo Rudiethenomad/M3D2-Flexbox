@@ -1,3 +1,39 @@
-h1{
-    color:red;
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav{
+    display: flex;
+    background-color: gray;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 70vw;
+    gap: 20px;
+
+}
+
+.first-btn{
+    display: flex;
+    background-color: bisque;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+*{
+    box-sizing: border-box;
 }
