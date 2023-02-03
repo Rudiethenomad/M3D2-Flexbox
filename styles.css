@@ -15,7 +15,8 @@ nav{
     flex-wrap: wrap;
     padding: 20px;
     box-sizing: border-box;
-    width: 70vw;
+    width: 50vw;
+    height: 150px;
     gap: 20px;
 
 }
@@ -30,9 +31,48 @@ nav{
     align-items: center;
     
 }
+.second-btn{
+    display: flex;
+    background-color: bisque;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+}
 img{
     width: 50px;
     height: 50px;
+}
+.cmplg{
+    display: flex;
+    background-color: bisque;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.fourth-btn{
+    display: flex;
+    background-color: bisque;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-btn{
+    display: flex;
+    background-color: bisque;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+}
 }
 *{
     box-sizing: border-box;
